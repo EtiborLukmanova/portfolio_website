@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">folio<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="index.html">home</a></li>
+                <li><a href="skills.html">skills</a></li>
+                <li><a href="achieve.html">Achievements</a></li>
+
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/etibor-lukmanova-5aa06a258/" target="_blank"> <i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/EtiborLukmanova" target="_blank"> <i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/EtiborLukmanova" target="_blank"> <i class="fab fa-github"></i></a>
+                <a href="mailto:@lukmanovaetibor0.com" target="_blank"> <i class="fab fa-envelope"></i></a>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Etibor Lukmanova</span>
+                <h1>I'm <span class="multiText"></span></h1>
+                <p>I am a passionate and dedicated software engineer with experience in front-end and back-end development. I have a keen interest in AI and web. Let's collaborate and build something amazing!</p>
+                <div class="btns">
+                    <a href="CV.pdf" class="button" download>Download CV</a>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="img.jpg" id="splash" alt="Profile Image" >
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multiText", {
+            strings : ["coder"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500
+        })
+    </script>
+</body>
+</html>
